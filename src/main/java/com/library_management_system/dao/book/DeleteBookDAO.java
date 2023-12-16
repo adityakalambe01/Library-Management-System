@@ -13,10 +13,10 @@ public class DeleteBookDAO {
     @Autowired
     SessionFactory sessionFactory;
     public Boolean deleteBookFromDB(Book book){
-        Session session = SessionFactory.openSession();
+        Session session = sessionFactory.openSession();
         Transaction tx = session.beginTransaction();
         session.delete(book);
         tx.commit();
-        
+        return false;
     }
 }
