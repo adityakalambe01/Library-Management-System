@@ -22,6 +22,9 @@ public class Member {
     @Column(name="book_borrowed")
     private int memberBooksBorrowed;
 
+    @Column(name = "pssword")
+    private String password;
+
     public Member() {
     }
 
@@ -92,6 +95,13 @@ public class Member {
         this.memberBooksBorrowed = memberBooksBorrowed;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     @Override
     public String toString() {
@@ -103,6 +113,7 @@ public class Member {
                 ", memberEmailId='" + memberEmailId + '\'' +
                 ", memberMembershipType='" + memberMembershipType + '\'' +
                 ", memberBooksBorrowed=" + memberBooksBorrowed +
+                ", password='" + password + '\'' +
                 '}';
     }
 }
