@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AddBookController {
-
     @Autowired
     AddBookService addBookService;
     @RequestMapping(value = "/addBookToDB",method = RequestMethod.POST)

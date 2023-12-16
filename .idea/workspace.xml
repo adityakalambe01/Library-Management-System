@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/DeleteBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/DeleteBookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/AddBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/AddBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/AddBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/AddBookDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +59,9 @@
         </option>
       </RecentBranches>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -134,7 +139,7 @@
       <workItem from="1702698937688" duration="7176000" />
       <workItem from="1702743585380" duration="1485000" />
       <workItem from="1702754622566" duration="79000" />
-      <workItem from="1702754718218" duration="2549000" />
+      <workItem from="1702754718218" duration="3053000" />
     </task>
     <task id="LOCAL-00001" summary="Java Backend Project using Springboot 2.7.17">
       <option name="closed" value="true" />
@@ -152,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702756876885</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Delete Book by isnn number">
+      <option name="closed" value="true" />
+      <created>1702757361778</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702757361778</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +173,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Backend Project using Springboot 2.7.17" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Backend Project using Springboot 2.7.17" />
+    <MESSAGE value="Delete Book by isnn number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete Book by isnn number" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

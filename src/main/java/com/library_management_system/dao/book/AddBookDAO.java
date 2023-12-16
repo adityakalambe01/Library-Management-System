@@ -17,10 +17,8 @@ public class AddBookDAO {
     @Autowired
     SessionFactory sessionFactory;
     public Boolean addBook(Book book){
-//        Book b = new Book(book.getBookName(),book.getBookAuthor(),book.getBookISBN(), book.getBookGenre(), new Date(),book.getBookAvailabilityStatus());
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-//        b.setBookId(book.getBookId());
         session.save(book);
         transaction.commit();
         return true;
