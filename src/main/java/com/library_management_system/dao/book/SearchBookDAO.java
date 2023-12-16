@@ -9,14 +9,22 @@ import org.springframework.stereotype.Repository;
 
 import com.library_management_system.entity.Book;
 
+import java.util.List;
+
 @Repository
 public class SearchBookDAO {
     @Autowired
     SessionFactory sessionFactory;
-    public Book searchBookByCategory(String category, String value){
-        Session session = sessionFactory.openSession();
-        Criteria criteria = session.createCriteria(Book.class);
-        return (Book) criteria.add(Restrictions.like("%"+category+"%", value)).list();
+    public List<Book> searchBookByCategory(String category, String value){
+//        Session session = sessionFactory.openSession();
+//        Criteria criteria = session.createCriteria(Book.class);
+//        return (Book) criteria.add(Restrictions.like("%"+category+"%", value)).list();
+
+        return sessionFactory
+                .openSession()
+                .createCriteria(Book.class)
+                .add(Restrictions.like("%"+category+"%", value))
+                .list();
 
 
     }

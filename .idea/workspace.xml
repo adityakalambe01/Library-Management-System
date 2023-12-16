@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/ViewAllBooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/AddBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/AddBookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/AddBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/AddBookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/UpdateBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/UpdateBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/LoginDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/LoginDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/BookAvailabilityDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/BookAvailabilityDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/SearchBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/SearchBookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/UpdateBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/UpdateBookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/ViewAllBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/ViewAllBookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/ViewBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/ViewBookDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +145,7 @@
       <workItem from="1702698937688" duration="7176000" />
       <workItem from="1702743585380" duration="1485000" />
       <workItem from="1702754622566" duration="79000" />
-      <workItem from="1702754718218" duration="3053000" />
+      <workItem from="1702754718218" duration="6201000" />
     </task>
     <task id="LOCAL-00001" summary="Java Backend Project using Springboot 2.7.17">
       <option name="closed" value="true" />
@@ -165,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702757361778</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Book into Database">
+      <option name="closed" value="true" />
+      <created>1702757841893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702757841893</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +188,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Backend Project using Springboot 2.7.17" />
     <MESSAGE value="Delete Book by isnn number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete Book by isnn number" />
+    <MESSAGE value="Add Book into Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Book into Database" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
