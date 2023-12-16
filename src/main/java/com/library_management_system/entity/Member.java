@@ -1,16 +1,14 @@
 package com.library_management_system.entity;
 
-import org.springframework.beans.factory.annotation.Value;
-
 import javax.persistence.*;
 
 @Entity
 @Table(name = "lab_ms_members")
-public class Members {
+public class Member {
     @Id
     @Column(name="member_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long memberID;
+    private Long memberID;
     @Column(name="name")
     private String memberName;
     @Column(name="address")
@@ -24,10 +22,10 @@ public class Members {
     @Column(name="book_borrowed")
     private int memberBooksBorrowed;
 
-    public Members() {
+    public Member() {
     }
 
-    public Members(long memberID, String memberName, String memberAddress, Long memberContactNumber, String memberEmailId, String memberMembershipType, int memberBooksBorrowed) {
+    public Member(Long memberID, String memberName, String memberAddress, Long memberContactNumber, String memberEmailId, String memberMembershipType, int memberBooksBorrowed) {
         this.memberID = memberID;
         this.memberName = memberName;
         this.memberAddress = memberAddress;
@@ -38,11 +36,11 @@ public class Members {
     }
 
 
-    public long getMemberID() {
+    public Long getMemberID() {
         return memberID;
     }
 
-    public void setMemberID(long memberID) {
+    public void setMemberID(Long memberID) {
         this.memberID = memberID;
     }
 
@@ -97,7 +95,7 @@ public class Members {
 
     @Override
     public String toString() {
-        return "Members{" +
+        return "Member{" +
                 "memberID=" + memberID +
                 ", memberName='" + memberName + '\'' +
                 ", memberAddress='" + memberAddress + '\'' +

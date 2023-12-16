@@ -1,2 +1,4 @@
-package com.library_management_system.dao.fine;public class ViewFineDAO {
+package com.library_management_system.dao.fine;
+
+public class ViewFineDAO {
 }

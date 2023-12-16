@@ -1,2 +1,4 @@
-package com.library_management_system.dao.member;public class UpdateMemberDAO {
+package com.library_management_system.dao.member;
+
+public class UpdateMemberDAO {
 }

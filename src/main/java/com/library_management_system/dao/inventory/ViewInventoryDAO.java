@@ -1,2 +1,4 @@
-package com.library_management_system.dao.inventory;public class ViewInventoryDAO {
+package com.library_management_system.dao.inventory;
+
+public class ViewInventoryDAO {
 }

@@ -1,2 +1,4 @@
-package com.library_management_system.dao.book;public class UpdateBookDAO {
+package com.library_management_system.dao.book;
+
+public class UpdateBookDAO {
 }

@@ -1,2 +1,4 @@
-package com.library_management_system.dao.member;public class DeleteMemberDAO {
+package com.library_management_system.dao.member;
+
+public class DeleteMemberDAO {
 }

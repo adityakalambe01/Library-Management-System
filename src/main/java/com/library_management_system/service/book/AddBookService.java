@@ -1,22 +1,17 @@
 package com.library_management_system.service.book;
 
-import com.library_management_system.entity.Book;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
-import org.hibernate.cfg.Configuration;
-import org.springframework.stereotype.Repository;
 
-@Repository
+import com.library_management_system.dao.book.AddBookDAO;
+import com.library_management_system.entity.Book;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
 public class AddBookService {
 
-//    @Autowired
-//    SessionFactoryObj sessionFactoryObj;
-    public Boolean addBook(Book book){
-//        Session session = sessionFactoryObj.getSessionFactoryObject(Book.class).openSession();
-        Session session = new Configuration().addAnnotatedClass(Book.class).buildSessionFactory().openSession();
-        Transaction transaction = session.beginTransaction();
-        session.save(book);
-        transaction.commit();
-        return true;
+    @Autowired
+    AddBookDAO addBookDAO;
+    public Boolean addBookToDB(Book book){
+        return addBookDAO.addBook(book);
     }
 }

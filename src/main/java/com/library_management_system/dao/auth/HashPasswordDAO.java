@@ -1,2 +1,4 @@
-package com.library_management_system.dao.auth;public class HashPasswordDAO {
+package com.library_management_system.dao.auth;
+
+public class HashPasswordDAO {
 }

@@ -5,11 +5,11 @@ import java.util.Date;
 
 @Entity
 @Table(name = "lab_ms_books")
-public class Books {
+public class Book {
     @Id
     @Column(name="book_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer bookId;
+    private Long bookId;
 
     @Column(name = "book_title")
     private String bookName;
@@ -25,10 +25,19 @@ public class Books {
     @Column(name = "book_availabily_status")
     private Boolean bookAvailabilityStatus;
 
-    public Books() {
+    public Book() {
     }
 
-    public Books(Integer bookId, String bookName, String bookAuthor, Long bookISBN, String bookGenre, Date bookPublicationYear, Boolean bookAvailabilityStatus) {
+    public Book(String bookName, String bookAuthor, Long bookISBN, String bookGenre, Date bookPublicationYear, Boolean bookAvailabilityStatus) {
+        this.bookName = bookName;
+        this.bookAuthor = bookAuthor;
+        this.bookISBN = bookISBN;
+        this.bookGenre = bookGenre;
+        this.bookPublicationYear = bookPublicationYear;
+        this.bookAvailabilityStatus = bookAvailabilityStatus;
+    }
+
+    public Book(Long bookId, String bookName, String bookAuthor, Long bookISBN, String bookGenre, Date bookPublicationYear, Boolean bookAvailabilityStatus) {
         this.bookId = bookId;
         this.bookName = bookName;
         this.bookAuthor = bookAuthor;
@@ -38,11 +47,11 @@ public class Books {
         this.bookAvailabilityStatus = bookAvailabilityStatus;
     }
 
-    public Integer getBookId() {
+    public Long getBookId() {
         return bookId;
     }
 
-    public void setBookId(Integer bookId) {
+    public void setBookId(Long bookId) {
         this.bookId = bookId;
     }
 
@@ -96,7 +105,7 @@ public class Books {
 
     @Override
     public String toString() {
-        return "Books{" +
+        return "Book{" +
                 "bookId=" + bookId +
                 ", bookName='" + bookName + '\'' +
                 ", bookAuthor='" + bookAuthor + '\'' +

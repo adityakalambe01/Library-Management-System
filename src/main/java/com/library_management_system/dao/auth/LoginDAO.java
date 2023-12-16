@@ -1,2 +1,4 @@
-package com.library_management_system.dao.auth;public class LoginDao {
+package com.library_management_system.dao.auth;
+
+public class LoginDAO {
 }

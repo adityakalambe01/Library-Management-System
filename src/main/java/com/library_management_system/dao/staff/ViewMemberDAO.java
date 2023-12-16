@@ -1,2 +1,4 @@
-package com.library_management_system.dao.staff;public class ViewMemberDAO {
+package com.library_management_system.dao.staff;
+
+public class ViewMemberDAO {
 }

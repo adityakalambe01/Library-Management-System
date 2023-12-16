@@ -5,7 +5,7 @@ import java.util.Date;
 
 @Entity
 @Table(name="lab_ms_transactions")
-public class Transaction {
+public class Loans {
 
     @Id
     @Column(name = "transaction_id")
@@ -23,10 +23,10 @@ public class Transaction {
     private Double fineAmount;
 
 
-    public Transaction() {
+    public Loans() {
     }
 
-    public Transaction(Long transactionID, Long bookID, Long userID, Date checkoutDate, Date returnDate, Double fineAmount) {
+    public Loans(Long transactionID, Long bookID, Long userID, Date checkoutDate, Date returnDate, Double fineAmount) {
         this.transactionID = transactionID;
         this.bookID = bookID;
         this.userID = userID;
@@ -85,7 +85,7 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return "Transaction{" +
+        return "Loans{" +
                 "transactionID=" + transactionID +
                 ", bookID=" + bookID +
                 ", userID=" + userID +
