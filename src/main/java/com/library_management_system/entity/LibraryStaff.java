@@ -84,6 +84,7 @@ public class LibraryStaff {
         return "LibraryStaff{" +
                 "staffMemberID=" + staffMemberID +
                 ", staffMemberName='" + staffMemberName + '\'' +
+
                 ", staffMemberPosition='" + staffMemberPosition + '\'' +
                 ", staffMemberContactNumber=" + staffMemberContactNumber +
                 ", staffMemberPassword='" + staffMemberPassword + '\'' +
