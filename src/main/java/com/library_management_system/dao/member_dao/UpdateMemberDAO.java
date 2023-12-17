@@ -1,0 +1,21 @@
+package com.library_management_system.dao.member_dao;
+
+import com.library_management_system.entity.Member;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class UpdateMemberDAO {
+    @Autowired
+    SessionFactory sessionFactory;
+    public  boolean updateMember(Member member){
+        Session session = sessionFactory.openSession();
+        Transaction tx = session.beginTransaction();
+        session.update(member);
+        tx.commit();
+        return false;
+    }
+}
