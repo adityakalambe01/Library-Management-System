@@ -13,13 +13,13 @@ import com.library_management_system.entity.Book;
 public class DeleteBookDAO {
     @Autowired
     SessionFactory sessionFactory;
-    public Boolean deleteBookFromDB(Book book){
-
+    public Boolean deleteBook(Long bookID){
         Session session = sessionFactory.openSession();
-        Criteria criteria = session.createCriteria(Book.class);
-        Transaction tx = session.beginTransaction();
-        session.delete(book);
-        tx.commit();
+        Book book = session.get(Book.class,bookID);
+        if(book!=null){
+            session.delete(book);
+            return true;
+        }
         return false;
     }
 }
