@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="Delete Book From Database">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_staff_controller/GetAllLibraryStaffController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_staff_dao/GetAllLibraryStaffDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_staff_services/GetAllLibraryStaffService.java" afterDir="false" />
+    <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_branch_controller/AddLibraryBranchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_branch_controller/GetAllLibraryBranchesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_branch_controller/GetLibraryBranchByIdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/AddLibraryBranchDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/GetAllLibraryBranchesDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/GetLibraryBranchByIdDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_branch_services/AddLibraryBranchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_branch_services/GetAllLibraryBranchesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_branch_services/GetLibraryBranchByIdService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/LoginDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/LoginDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/AddBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/AddBookDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/BookAvailabilityDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/BookAvailabilityDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/DeleteBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/DeleteBookDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/GetAllBooksDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/GetAllBooksDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/GetBookByIdDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/GetBookByIdDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/SearchBookByAuthorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/SearchBookByAuthorDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/SearchBooksByTitleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/SearchBooksByTitleDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/UpdateBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/UpdateBookDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/auth/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/auth/LoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Public Environment File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -143,6 +139,20 @@
     <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
       <method v="2" />
     </configuration>
+    <configuration name="com.library_management_system.dao.library_branch_dao in MyProjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.library_management_system.dao.library_branch_dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.library_management_system.dao.library_branch_dao" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="MyProjects" />
@@ -153,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.library_management_system.dao.library_branch_dao in MyProjects" />
         <item itemvalue="HTTP Request.All in generated-requests" />
       </list>
     </recent_temporary>
@@ -177,47 +188,7 @@
       <workItem from="1702803888966" duration="682000" />
       <workItem from="1702804593200" duration="2595000" />
       <workItem from="1702820048325" duration="5850000" />
-      <workItem from="1702832525026" duration="3349000" />
-    </task>
-    <task id="LOCAL-00016" summary="Library Staff Entity">
-      <option name="closed" value="true" />
-      <created>1702806677292</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1702806677292</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Loan Entity">
-      <option name="closed" value="true" />
-      <created>1702806702077</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1702806702077</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Member Entity">
-      <option name="closed" value="true" />
-      <created>1702806726588</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1702806726588</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Reservation Entity">
-      <option name="closed" value="true" />
-      <created>1702806747982</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1702806747982</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Delete Book From Database">
-      <option name="closed" value="true" />
-      <created>1702806794841</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1702806794841</updated>
+      <workItem from="1702832525026" duration="9573000" />
     </task>
     <task id="LOCAL-00021" summary="All Entities">
       <option name="closed" value="true" />
@@ -571,7 +542,47 @@
       <option name="project" value="LOCAL" />
       <updated>1702835928123</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Get All Library Staff DAO">
+      <option name="closed" value="true" />
+      <created>1702836314822</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1702836314823</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Get All Library Staff Service">
+      <option name="closed" value="true" />
+      <created>1702836342922</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1702836342923</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Get All Library Staff Controller">
+      <option name="closed" value="true" />
+      <created>1702836397561</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1702836397561</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Library Management System">
+      <option name="closed" value="true" />
+      <created>1702836444595</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1702836444595</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Library Staff">
+      <option name="closed" value="true" />
+      <created>1702839850660</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1702839850660</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,11 +592,6 @@
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Member From Database" />
-    <MESSAGE value="Get All Members Service" />
-    <MESSAGE value="Get Member By ID Service" />
-    <MESSAGE value="Search Member By Name DAO" />
-    <MESSAGE value="Search Member By Name Service" />
     <MESSAGE value="Add Member Service" />
     <MESSAGE value="Update Member Service" />
     <MESSAGE value="Delete Member From Database" />
@@ -604,9 +610,14 @@
     <MESSAGE value="Get Member By Name Controller" />
     <MESSAGE value="Update Member Controller" />
     <MESSAGE value="Staff Entity" />
-    <MESSAGE value="Delete Book From Database" />
     <MESSAGE value="Library Staff Entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Library Staff Entity" />
+    <MESSAGE value="Get All Library Staff DAO" />
+    <MESSAGE value="Get All Library Staff Service" />
+    <MESSAGE value="Get All Library Staff Controller" />
+    <MESSAGE value="Delete Book From Database" />
+    <MESSAGE value="Library Management System" />
+    <MESSAGE value="Library Staff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Library Staff" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
