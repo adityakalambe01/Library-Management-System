@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_branch_controller/AddLibraryBranchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_branch_controller/GetAllLibraryBranchesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_branch_controller/GetLibraryBranchByIdController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/AddLibraryBranchDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/GetAllLibraryBranchesDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/GetLibraryBranchByIdDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_branch_services/AddLibraryBranchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_branch_services/GetAllLibraryBranchesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_branch_services/GetLibraryBranchByIdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_branch_controller/UpdateLibraryBranchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/DeleteLibraryBranchDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/UpdateLibraryBranchDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_branch_services/DeleteLibraryBranchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_branch_services/UpdateLibraryBranchService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_staff_dao/GetAllLibraryStaffDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_staff_dao/GetAllLibraryStaffDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,15 +185,8 @@
       <workItem from="1702803888966" duration="682000" />
       <workItem from="1702804593200" duration="2595000" />
       <workItem from="1702820048325" duration="5850000" />
-      <workItem from="1702832525026" duration="9573000" />
-    </task>
-    <task id="LOCAL-00021" summary="All Entities">
-      <option name="closed" value="true" />
-      <created>1702806865171</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1702806865171</updated>
+      <workItem from="1702832525026" duration="9752000" />
+      <workItem from="1702842865129" duration="1360000" />
     </task>
     <task id="LOCAL-00022" summary="Add book Controller">
       <option name="closed" value="true" />
@@ -582,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702839850660</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Library Branch">
+      <option name="closed" value="true" />
+      <created>1702842546407</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1702842546407</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +590,6 @@
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Member Service" />
     <MESSAGE value="Update Member Service" />
     <MESSAGE value="Delete Member From Database" />
     <MESSAGE value="Add Book Service" />
@@ -617,7 +614,8 @@
     <MESSAGE value="Delete Book From Database" />
     <MESSAGE value="Library Management System" />
     <MESSAGE value="Library Staff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Library Staff" />
+    <MESSAGE value="Library Branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Library Branch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

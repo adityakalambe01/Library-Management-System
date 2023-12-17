@@ -11,7 +11,8 @@ import java.util.List;
 public class GetAllLibraryStaffDAO {
     @Autowired
     SessionFactory sessionFactory;
-    public List<LibraryStaff> getAllLibraryStaff(){
+    @SuppressWarnings({ "deprecation", "unchecked" })
+	public List<LibraryStaff> getAllLibraryStaff(){
         return sessionFactory.openSession()
                 .createCriteria(LibraryStaff.class)
                 .list();
