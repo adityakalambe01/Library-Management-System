@@ -4,143 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/SearchBooksByTitleDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/neededfunction.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/auth/LoginService.java" afterDir="false" />
+    <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="Delete Book From Database">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_staff_controller/GetAllLibraryStaffController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_staff_dao/GetAllLibraryStaffDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_staff_services/GetAllLibraryStaffService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/BookAvailabilityController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/DeleteBookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/SearchBookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/UpdateBookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/ViewAllBooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/ViewBookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/branch/AddBranchController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/branch/DeleteBranchController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/branch/UpdateBranchController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/branch/ViewBranchController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fine/AddFineController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fine/FineStatusController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fine/TotalFineController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fine/UpdateFineController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fine/ViewFineController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory/AddBookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory/DeleteBookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory/SearchBookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory/UpdateBookQuantityController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory/ViewInventoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/loan/ActiveLoansController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/loan/BookCheckoutController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/loan/BookReturnController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/loan/CalculateFinesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/loan/LoanHistoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/BookReservationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/DeleteMemberController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/PayFinesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/RegisterController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/UpdateMemberController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/ViewMemberBorrowedBookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/ViewMemberController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation/CancelReservationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation/PlaceReservationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation/ProcessReservationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation/ViewReservationStatusController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/staff/CheckOutBookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/staff/LoanHistoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/staff/ProcessReservationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/staff/ReturnBookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/staff/UpdateFineController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/staff/ViewMemberController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/LoginDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/LoginDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/SearchBookDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/ViewAllBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/ViewAllBookDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/branch/AddBranchDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/branch/DeleteBranchDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/branch/UpdateBranchDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/branch/ViewBranchDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine/AddFineDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine/FineStatusDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine/TotalFineDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine/UpdateFineDAo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine/ViewFineDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory/AddBookDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory/DeleteBookDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory/SearchBookDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory/UpdateBookQuantityDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory/ViewInventoryDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/loan/ActiveLoansDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/loan/BookCheckoutDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/loan/BookReturnDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/loan/CalculateFinesDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/loan/LoanHistoryDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/BookReservationDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/DeleteMemberDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/PayFinesDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/RegisterDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/UpdateMemberDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/ViewMemberBorrowedBookDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/ViewMemberDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation/CancelReservationDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation/PlaceReservationDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation/ProcessReservationDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation/ViewReservationStatusDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/staff/CheckOutBookDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/staff/LoanHistoryDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/staff/ProcessReservationDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/staff/ReturnBookDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/staff/UpdateFineDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/staff/ViewMemberDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/book/AddBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/book/BookAvailabilityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/book/DeleteBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/book/SearchBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/book/UpdateBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/book/ViewBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/branch/AddBranchService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/branch/DeleteBranchService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/branch/UpdateBranchService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/branch/ViewBranchService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine/AddFineService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine/FineStatusService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine/TotalFineService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine/UpdateFineService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine/ViewFineService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory/AddBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory/DeleteBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory/SearchBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory/UpdateBookQuantityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory/ViewInventoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/loan/ActiveLoansService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/loan/BookCheckoutService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/loan/BookReturnService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/loan/CalculateFinesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/loan/LoanHistoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/BookReservationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/DeleteMemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/PayFinesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/RegisterService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/UpdateMemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/ViewMemberBorrowedBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/ViewMemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation/CancelReservationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation/PlaceReservationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation/ProcessReservationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation/ViewReservationStatusService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/staff/CheckOutBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/staff/LoanHistoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/staff/ProcessReservationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/staff/ReturnBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/staff/UpdateFineService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/staff/ViewMemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/AddBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/AddBookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/BookAvailabilityDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/BookAvailabilityDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/DeleteBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/DeleteBookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/GetAllBooksDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/GetAllBooksDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/GetBookByIdDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/GetBookByIdDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/SearchBookByAuthorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/SearchBookByAuthorDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/SearchBooksByTitleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/SearchBooksByTitleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/UpdateBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/UpdateBookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book_dao/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/auth/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/auth/LoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTTP Public Environment File" />
         <option value="Class" />
       </list>
     </option>
@@ -209,6 +101,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;V:/AllProjects/src/main/java/com/library_management_system/controller/book&quot;,
     &quot;last_opened_file_path&quot;: &quot;V:/AllProjects/src/main/java/com/library_management_system/controller&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -226,6 +119,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.library_management_system.controller.book" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="V:\AllProjects\src\main\java\com\library_management_system\controller" />
       <recent name="V:\AllProjects\src\main\java\com\library_management_system\service" />
@@ -237,8 +133,16 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.MainProjectApplication">
+    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
+      <method v="2" />
+    </configuration>
     <configuration name="MainProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="MyProjects" />
@@ -247,6 +151,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in generated-requests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -264,77 +173,440 @@
       <workItem from="1702743585380" duration="1485000" />
       <workItem from="1702754622566" duration="79000" />
       <workItem from="1702754718218" duration="6715000" />
-      <workItem from="1702796913606" duration="980000" />
+      <workItem from="1702796913606" duration="5284000" />
+      <workItem from="1702803888966" duration="682000" />
+      <workItem from="1702804593200" duration="2595000" />
+      <workItem from="1702820048325" duration="5850000" />
+      <workItem from="1702832525026" duration="3349000" />
     </task>
-    <task id="LOCAL-00001" summary="Java Backend Project using Springboot 2.7.17">
+    <task id="LOCAL-00016" summary="Library Staff Entity">
       <option name="closed" value="true" />
-      <created>1702754877054</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+      <created>1702806677292</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1702754877054</updated>
+      <updated>1702806677292</updated>
     </task>
-    <task id="LOCAL-00002" summary="Java Backend Project using Springboot 2.7.17">
+    <task id="LOCAL-00017" summary="Loan Entity">
       <option name="closed" value="true" />
-      <created>1702756876885</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+      <created>1702806702077</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1702756876885</updated>
+      <updated>1702806702077</updated>
     </task>
-    <task id="LOCAL-00003" summary="Delete Book by isnn number">
+    <task id="LOCAL-00018" summary="Member Entity">
       <option name="closed" value="true" />
-      <created>1702757361778</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+      <created>1702806726588</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1702757361778</updated>
+      <updated>1702806726588</updated>
     </task>
-    <task id="LOCAL-00004" summary="Add Book into Database">
+    <task id="LOCAL-00019" summary="Reservation Entity">
       <option name="closed" value="true" />
-      <created>1702757841893</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+      <created>1702806747982</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1702757841893</updated>
+      <updated>1702806747982</updated>
     </task>
-    <task id="LOCAL-00005" summary="Add Book into Database">
+    <task id="LOCAL-00020" summary="Delete Book From Database">
       <option name="closed" value="true" />
-      <created>1702762350717</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+      <created>1702806794841</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1702762350717</updated>
+      <updated>1702806794841</updated>
     </task>
-    <task id="LOCAL-00006" summary="Authorization">
+    <task id="LOCAL-00021" summary="All Entities">
       <option name="closed" value="true" />
-      <created>1702762714747</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+      <created>1702806865171</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1702762714747</updated>
+      <updated>1702806865171</updated>
     </task>
-    <task id="LOCAL-00007" summary="Members Entity">
+    <task id="LOCAL-00022" summary="Add book Controller">
       <option name="closed" value="true" />
-      <created>1702762738853</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+      <created>1702820119269</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1702762738853</updated>
+      <updated>1702820119269</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00023" summary="Book Availability Controller">
+      <option name="closed" value="true" />
+      <created>1702820147959</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820147959</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Delete Book Controller">
+      <option name="closed" value="true" />
+      <created>1702820166595</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820166595</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Delete Book Controller">
+      <option name="closed" value="true" />
+      <created>1702820215706</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820215706</updated>
+    </task>
+    <task id="LOCAL-00026" summary="All Books Controller">
+      <option name="closed" value="true" />
+      <created>1702820243514</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820243514</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Book By Id">
+      <option name="closed" value="true" />
+      <created>1702820270966</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820270966</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Search Book By Author Controller">
+      <option name="closed" value="true" />
+      <created>1702820320554</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820320554</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Search Book By Title Controller">
+      <option name="closed" value="true" />
+      <created>1702820340730</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820340730</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Update Book Controller">
+      <option name="closed" value="true" />
+      <created>1702820374568</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820374568</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Get Book By Id Controller">
+      <option name="closed" value="true" />
+      <created>1702820407335</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820407335</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Gel All Books Controller">
+      <option name="closed" value="true" />
+      <created>1702820436548</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820436548</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Book Entity DAO Classes">
+      <option name="closed" value="true" />
+      <created>1702820728375</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820728375</updated>
+    </task>
+    <task id="LOCAL-00034" summary="All Entities of Library Management System">
+      <option name="closed" value="true" />
+      <created>1702820914341</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820914341</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Get All Members DAO">
+      <option name="closed" value="true" />
+      <created>1702821301210</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1702821301210</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Get Members By ID DAO">
+      <option name="closed" value="true" />
+      <created>1702821441767</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1702821441767</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Search Book By Member Name DAO">
+      <option name="closed" value="true" />
+      <created>1702821763277</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1702821763277</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add Members DAO">
+      <option name="closed" value="true" />
+      <created>1702821949250</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1702821949250</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Delete Member DAO">
+      <option name="closed" value="true" />
+      <created>1702822848607</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1702822848607</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Delete Member From Database">
+      <option name="closed" value="true" />
+      <created>1702822886591</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1702822886591</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Update Member From Database">
+      <option name="closed" value="true" />
+      <created>1702822914100</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1702822914101</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Get All Members Service">
+      <option name="closed" value="true" />
+      <created>1702823130966</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1702823130966</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Get Member By ID Service">
+      <option name="closed" value="true" />
+      <created>1702823246641</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1702823246641</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Search Member By Name DAO">
+      <option name="closed" value="true" />
+      <created>1702823350844</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1702823350844</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Search Member By Name Service">
+      <option name="closed" value="true" />
+      <created>1702823494738</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1702823494738</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Add Member Service">
+      <option name="closed" value="true" />
+      <created>1702823584694</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1702823584694</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Update Member Service">
+      <option name="closed" value="true" />
+      <created>1702823666384</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1702823666384</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Delete Member From Database">
+      <option name="closed" value="true" />
+      <created>1702823797139</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1702823797139</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Add Book Service">
+      <option name="closed" value="true" />
+      <created>1702823995092</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1702823995092</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Book Availability Service">
+      <option name="closed" value="true" />
+      <created>1702824021261</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1702824021262</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Delete Book Service">
+      <option name="closed" value="true" />
+      <created>1702824040191</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1702824040191</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Get All Book Service">
+      <option name="closed" value="true" />
+      <created>1702824056187</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1702824056187</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Get Book By ID Service">
+      <option name="closed" value="true" />
+      <created>1702824075355</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1702824075355</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Search Book By Author Service">
+      <option name="closed" value="true" />
+      <created>1702824096889</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1702824096889</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Search Book By Title Service">
+      <option name="closed" value="true" />
+      <created>1702824116629</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1702824116629</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Update Book service">
+      <option name="closed" value="true" />
+      <created>1702824132808</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1702824132808</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Add Member Controller">
+      <option name="closed" value="true" />
+      <created>1702834235096</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1702834235097</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Delete Member Controller">
+      <option name="closed" value="true" />
+      <created>1702834261178</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1702834261178</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Get All Member Controller">
+      <option name="closed" value="true" />
+      <created>1702834275256</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1702834275256</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Get Member By ID Controller">
+      <option name="closed" value="true" />
+      <created>1702834299511</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1702834299511</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Get Member By Name Controller">
+      <option name="closed" value="true" />
+      <created>1702834319749</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1702834319749</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Update Member Controller">
+      <option name="closed" value="true" />
+      <created>1702834335248</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1702834335248</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Staff Entity">
+      <option name="closed" value="true" />
+      <created>1702834455654</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1702834455654</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Library Staff Entity">
+      <option name="closed" value="true" />
+      <created>1702835928123</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1702835928123</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java Backend Project using Springboot 2.7.17" />
-    <MESSAGE value="Delete Book by isnn number" />
-    <MESSAGE value="Add Book into Database" />
-    <MESSAGE value="Authorization" />
-    <MESSAGE value="Members Entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Members Entity" />
+    <MESSAGE value="Update Member From Database" />
+    <MESSAGE value="Get All Members Service" />
+    <MESSAGE value="Get Member By ID Service" />
+    <MESSAGE value="Search Member By Name DAO" />
+    <MESSAGE value="Search Member By Name Service" />
+    <MESSAGE value="Add Member Service" />
+    <MESSAGE value="Update Member Service" />
+    <MESSAGE value="Delete Member From Database" />
+    <MESSAGE value="Add Book Service" />
+    <MESSAGE value="Book Availability Service" />
+    <MESSAGE value="Delete Book Service" />
+    <MESSAGE value="Get All Book Service" />
+    <MESSAGE value="Get Book By ID Service" />
+    <MESSAGE value="Search Book By Author Service" />
+    <MESSAGE value="Search Book By Title Service" />
+    <MESSAGE value="Update Book service" />
+    <MESSAGE value="Add Member Controller" />
+    <MESSAGE value="Delete Member Controller" />
+    <MESSAGE value="Get All Member Controller" />
+    <MESSAGE value="Get Member By ID Controller" />
+    <MESSAGE value="Get Member By Name Controller" />
+    <MESSAGE value="Update Member Controller" />
+    <MESSAGE value="Staff Entity" />
+    <MESSAGE value="Delete Book From Database" />
+    <MESSAGE value="Library Staff Entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Library Staff Entity" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,4 +1,4 @@
-package com.library_management_system.dao.book;
+package com.library_management_system.dao.book_dao;
 
 
 import com.library_management_system.entity.Book;
