@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class ViewBookDAO {
+public class GetBookByIdDAO {
 
     @Autowired
     SessionFactory sessionFactory;
-    public Book viewBook(int id){
+    public Book getBookById(Long id){
         return (Book) sessionFactory
                 .openSession()
                 .load(Book.class,id);

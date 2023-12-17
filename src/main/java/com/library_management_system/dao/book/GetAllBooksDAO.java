@@ -8,11 +8,11 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class ViewAllBookDAO {
+public class GetAllBooksDAO {
     @Autowired
     SessionFactory sessionFactory;
     public List<Book> getAllBooks(){
-        return (List<Book>) sessionFactory
+        return sessionFactory
                 .openSession()
                 .createCriteria(Book.class)
                 .list();

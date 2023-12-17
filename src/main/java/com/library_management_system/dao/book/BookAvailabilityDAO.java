@@ -1,11 +1,10 @@
 package com.library_management_system.dao.book;
 
-import org.hibernate.*;
-import org.hibernate.criterion.Restrictions;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 
 import com.library_management_system.entity.Book;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 @Repository
 public class BookAvailabilityDAO {

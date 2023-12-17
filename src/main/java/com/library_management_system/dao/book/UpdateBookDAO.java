@@ -25,8 +25,6 @@ public class UpdateBookDAO {
         Transaction tx = session.beginTransaction();
         session.update(b);
         tx.commit();
-
-
         return "Book Updated";
     }
 }
