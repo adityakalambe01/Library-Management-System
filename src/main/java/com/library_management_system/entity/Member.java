@@ -38,7 +38,6 @@ public class Member {
         this.memberBooksBorrowed = memberBooksBorrowed;
     }
 
-
     public Long getMemberID() {
         return memberID;
     }
