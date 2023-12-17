@@ -36,7 +36,6 @@ public class Inventory {
     }
 
 
-
     public Long getBookId() {
         return bookId;
     }
