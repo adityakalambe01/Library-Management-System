@@ -59,6 +59,7 @@ public class LibraryBranch {
         this.branchOperatingHours = branchOperatingHours;
     }
 
+
     @Override
     public String toString() {
         return "LibraryBranch{" +
