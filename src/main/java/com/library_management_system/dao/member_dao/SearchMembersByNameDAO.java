@@ -6,14 +6,16 @@ import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public class SearchMembersByNameDAO {
     @Autowired
     SessionFactory sessionFactory;
-    public Member searchMembersByName(String memberName){
-        return (Member) sessionFactory.openSession()
+    public List<Member> searchMembersByName(String memberName){
+        return sessionFactory.openSession()
                 .createCriteria(Member.class)
                 .add(Restrictions.like("memberName",memberName))
-                .uniqueResult();
+                .list();
     }
 }
