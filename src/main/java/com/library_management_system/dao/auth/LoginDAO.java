@@ -9,8 +9,8 @@ import org.springframework.stereotype.Repository;
 public class LoginDAO {
     @Autowired
     SessionFactory sessionFactory;
-    public Member login(Member member){
+    public Member memberLogin(Member member){
         return sessionFactory.openSession()
-                .get(Member.class,member.getMemberID());
+                .createCriteria(Member.class)
     }
 }

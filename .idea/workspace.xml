@@ -5,7 +5,133 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/SearchBooksByTitleDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/neededfunction.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/auth/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/BookAvailabilityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/DeleteBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/SearchBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/UpdateBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/ViewAllBooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/book/ViewBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/branch/AddBranchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/branch/DeleteBranchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/branch/UpdateBranchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/branch/ViewBranchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fine/AddFineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fine/FineStatusController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fine/TotalFineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fine/UpdateFineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fine/ViewFineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory/AddBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory/DeleteBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory/SearchBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory/UpdateBookQuantityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory/ViewInventoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/loan/ActiveLoansController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/loan/BookCheckoutController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/loan/BookReturnController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/loan/CalculateFinesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/loan/LoanHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/BookReservationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/DeleteMemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/PayFinesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/RegisterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/UpdateMemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/ViewMemberBorrowedBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member/ViewMemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation/CancelReservationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation/PlaceReservationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation/ProcessReservationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation/ViewReservationStatusController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/staff/CheckOutBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/staff/LoanHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/staff/ProcessReservationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/staff/ReturnBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/staff/UpdateFineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/staff/ViewMemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/LoginDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/LoginDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/SearchBookDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/ViewAllBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/book/ViewAllBookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/branch/AddBranchDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/branch/DeleteBranchDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/branch/UpdateBranchDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/branch/ViewBranchDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine/AddFineDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine/FineStatusDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine/TotalFineDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine/UpdateFineDAo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine/ViewFineDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory/AddBookDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory/DeleteBookDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory/SearchBookDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory/UpdateBookQuantityDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory/ViewInventoryDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/loan/ActiveLoansDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/loan/BookCheckoutDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/loan/BookReturnDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/loan/CalculateFinesDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/loan/LoanHistoryDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/BookReservationDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/DeleteMemberDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/PayFinesDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/RegisterDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/UpdateMemberDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/ViewMemberBorrowedBookDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/member/ViewMemberDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation/CancelReservationDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation/PlaceReservationDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation/ProcessReservationDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation/ViewReservationStatusDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/staff/CheckOutBookDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/staff/LoanHistoryDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/staff/ProcessReservationDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/staff/ReturnBookDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/staff/UpdateFineDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/staff/ViewMemberDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/book/AddBookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/book/BookAvailabilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/book/DeleteBookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/book/SearchBookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/book/UpdateBookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/book/ViewBookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/branch/AddBranchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/branch/DeleteBranchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/branch/UpdateBranchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/branch/ViewBranchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine/AddFineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine/FineStatusService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine/TotalFineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine/UpdateFineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine/ViewFineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory/AddBookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory/DeleteBookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory/SearchBookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory/UpdateBookQuantityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory/ViewInventoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/loan/ActiveLoansService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/loan/BookCheckoutService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/loan/BookReturnService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/loan/CalculateFinesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/loan/LoanHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/BookReservationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/DeleteMemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/PayFinesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/RegisterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/UpdateMemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/ViewMemberBorrowedBookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member/ViewMemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation/CancelReservationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation/PlaceReservationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation/ProcessReservationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation/ViewReservationStatusService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/staff/CheckOutBookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/staff/LoanHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/staff/ProcessReservationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/staff/ReturnBookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/staff/UpdateFineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/staff/ViewMemberService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,33 +198,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "V:/AllProjects/src/main/java/com/library_management_system/controller",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "service.view.auto.scroll.from.source": "true",
-    "service.view.auto.scroll.to.source": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "67e09f159e47ffaa407166d2067ac74f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;V:/AllProjects/src/main/java/com/library_management_system/controller&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;service.view.auto.scroll.from.source&quot;: &quot;true&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;67e09f159e47ffaa407166d2067ac74f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="V:\AllProjects\src\main\java\com\library_management_system\controller" />
@@ -137,7 +263,8 @@
       <workItem from="1702698937688" duration="7176000" />
       <workItem from="1702743585380" duration="1485000" />
       <workItem from="1702754622566" duration="79000" />
-      <workItem from="1702754718218" duration="6417000" />
+      <workItem from="1702754718218" duration="6715000" />
+      <workItem from="1702796913606" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="Java Backend Project using Springboot 2.7.17">
       <option name="closed" value="true" />
@@ -179,7 +306,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702762350717</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Authorization">
+      <option name="closed" value="true" />
+      <created>1702762714747</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702762714747</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Members Entity">
+      <option name="closed" value="true" />
+      <created>1702762738853</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702762738853</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +332,9 @@
     <MESSAGE value="Java Backend Project using Springboot 2.7.17" />
     <MESSAGE value="Delete Book by isnn number" />
     <MESSAGE value="Add Book into Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Book into Database" />
+    <MESSAGE value="Authorization" />
+    <MESSAGE value="Members Entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Members Entity" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
