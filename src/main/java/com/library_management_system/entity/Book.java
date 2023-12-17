@@ -27,7 +27,6 @@ public class Book {
 
     public Book() {
     }
-
     public Book(String bookName, String bookAuthor, Long bookISBN, String bookGenre, Date bookPublicationYear, Boolean bookAvailabilityStatus) {
         this.bookName = bookName;
         this.bookAuthor = bookAuthor;
