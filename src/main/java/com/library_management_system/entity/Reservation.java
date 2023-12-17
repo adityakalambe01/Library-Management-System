@@ -6,7 +6,6 @@ import java.util.Date;
 @Entity
 @Table(name = "lab_ms_reservations")
 public class Reservation {
-
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
