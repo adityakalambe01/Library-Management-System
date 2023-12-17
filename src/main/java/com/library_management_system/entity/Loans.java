@@ -6,7 +6,6 @@ import java.util.Date;
 @Entity
 @Table(name="lab_ms_transactions")
 public class Loans {
-
     @Id
     @Column(name = "transaction_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
