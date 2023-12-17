@@ -18,7 +18,6 @@ public class Fine {
     @Column(name = "status",columnDefinition = "varchar(255) default 'paid'")
     private String paymentStatus;
 
-
     public Fine() {
     }
 
