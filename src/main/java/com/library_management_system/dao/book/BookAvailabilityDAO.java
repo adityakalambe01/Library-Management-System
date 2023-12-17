@@ -11,14 +11,9 @@ import com.library_management_system.entity.Book;
 public class BookAvailabilityDAO {
     @Autowired
     SessionFactory sessionFactory;
-    public Boolean getBookAvailability(String bookName){
-        Book b = (Book) sessionFactory
-                .openSession()
-                .createCriteria(Book.class)
-                .add(Restrictions.like("bookName",bookName))
-                .setFetchSize(1)
-                .uniqueResult();
-
-        return b.getBookAvailabilityStatus();
+    public Boolean getBookAvailability(Long bookID){
+        return sessionFactory.openSession()
+                .get(Book.class,bookID)
+                .getBookAvailabilityStatus();
     }
 }
