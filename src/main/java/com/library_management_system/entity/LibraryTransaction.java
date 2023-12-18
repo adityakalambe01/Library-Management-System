@@ -1,11 +1,11 @@
 package com.library_management_system.entity;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.time.LocalDate;
 
 @Entity
 @Table(name="lab_ms_transactions")
-public class Loans {
+public class LibraryTransaction {
     @Id
     @Column(name = "transaction_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -14,18 +14,20 @@ public class Loans {
     private Long bookID;
     @Column(name = "user_id")
     private Long userID;
+
     @Column(name = "checkout_date")
-    private Date checkoutDate;
+    private LocalDate checkoutDate;
+
     @Column(name = "return_date")
-    private Date returnDate;
+    private LocalDate returnDate;
     @Column(name = "fine_amount",columnDefinition = "double default 0")
     private Double fineAmount;
 
 
-    public Loans() {
+    public LibraryTransaction() {
     }
 
-    public Loans(Long transactionID, Long bookID, Long userID, Date checkoutDate, Date returnDate, Double fineAmount) {
+    public LibraryTransaction(Long transactionID, Long bookID, Long userID, LocalDate checkoutDate, LocalDate returnDate, Double fineAmount) {
         this.transactionID = transactionID;
         this.bookID = bookID;
         this.userID = userID;
@@ -58,19 +60,19 @@ public class Loans {
         this.userID = userID;
     }
 
-    public Date getCheckoutDate() {
+    public LocalDate getCheckoutDate() {
         return checkoutDate;
     }
 
-    public void setCheckoutDate(Date checkoutDate) {
+    public void setCheckoutDate(LocalDate checkoutDate) {
         this.checkoutDate = checkoutDate;
     }
 
-    public Date getReturnDate() {
+    public LocalDate getReturnDate() {
         return returnDate;
     }
 
-    public void setReturnDate(Date returnDate) {
+    public void setReturnDate(LocalDate returnDate) {
         this.returnDate = returnDate;
     }
 
@@ -84,7 +86,7 @@ public class Loans {
 
     @Override
     public String toString() {
-        return "Loans{" +
+        return "LibraryTransaction{" +
                 "transactionID=" + transactionID +
                 ", bookID=" + bookID +
                 ", userID=" + userID +

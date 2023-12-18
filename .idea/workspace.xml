@@ -5,13 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_branch_controller/UpdateLibraryBranchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/DeleteLibraryBranchDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/UpdateLibraryBranchDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_branch_services/DeleteLibraryBranchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_branch_services/UpdateLibraryBranchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fineController/GetAllFinesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fineController/GetFineByIdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fineController/GetFinesByUserIdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_transaction_controller/CalculateFineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_transaction_controller/CheckoutBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_transaction_controller/GetAllTransactionsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_transaction_controller/GetTransactionByIdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_transaction_controller/GetTransactionsByUserIdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_transaction_controller/ReturnBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine_dao/GetAllFinesDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine_dao/GetFineByIdDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine_dao/GetFinesByUserIdDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine_dao/PayFineDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_transactions_dao/CalculateFineDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_transactions_dao/CheckoutBookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_transactions_dao/GetAllTransactionsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_transactions_dao/GetTransactionByIdDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_transactions_dao/GetTransactionsByUserIdDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_transactions_dao/ReturnBookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine_services/GetAllFinesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine_services/GetFineByIdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine_services/GetFinesByUserIdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_transaction_service/CalculateFineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_transaction_service/CheckoutBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_transaction_service/GetAllTransactionsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_transaction_service/GetTransactionByIdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_transaction_service/GetTransactionsByUserIdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_transaction_service/ReturnBookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_staff_dao/GetAllLibraryStaffDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_staff_dao/GetAllLibraryStaffDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/GetLibraryBranchByIdDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/GetLibraryBranchByIdDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/entity/Loans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/entity/LibraryTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +127,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;service.view.auto.scroll.from.source&quot;: &quot;true&quot;,
@@ -136,6 +162,9 @@
     <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
       <method v="2" />
     </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="com.library_management_system.dao.library_branch_dao in MyProjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProjects" />
       <extension name="coverage">
@@ -160,6 +189,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="JUnit.com.library_management_system.dao.library_branch_dao in MyProjects" />
         <item itemvalue="HTTP Request.All in generated-requests" />
       </list>
@@ -186,15 +216,12 @@
       <workItem from="1702804593200" duration="2595000" />
       <workItem from="1702820048325" duration="5850000" />
       <workItem from="1702832525026" duration="9752000" />
-      <workItem from="1702842865129" duration="1360000" />
-    </task>
-    <task id="LOCAL-00022" summary="Add book Controller">
-      <option name="closed" value="true" />
-      <created>1702820119269</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1702820119269</updated>
+      <workItem from="1702842865129" duration="2030000" />
+      <workItem from="1702845182001" duration="1153000" />
+      <workItem from="1702873453283" duration="6788000" />
+      <workItem from="1702897359979" duration="690000" />
+      <workItem from="1702904515719" duration="4726000" />
+      <workItem from="1702909366424" duration="2361000" />
     </task>
     <task id="LOCAL-00023" summary="Book Availability Controller">
       <option name="closed" value="true" />
@@ -580,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702842546407</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Library Branch">
+      <option name="closed" value="true" />
+      <created>1702844376975</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1702844376976</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
