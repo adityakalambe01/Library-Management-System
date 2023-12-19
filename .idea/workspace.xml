@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory_controller/AddInventoryEntryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory_controller/DeleteInventoryEntryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory_controller/GetAllInventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory_controller/GetInventoryByIdController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory_controller/UpdateInventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation_controller/CancelReservationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation_controller/GetAllReservationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation_controller/GetReservationByIdController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation_controller/GetReservationsByUserIdController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation_controller/PlaceReservationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory_dao/AddInventoryEntryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory_dao/DeleteInventoryEntryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory_dao/GetAllInventoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory_dao/GetInventoryByIdDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory_dao/UpdateInventoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation_dao/CancelReservationDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation_dao/GetAllReservationDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation_dao/GetReservationByIdDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation_dao/GetReservationsByUserIdDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation_dao/PlaceReservationDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory_services/AddInventoryEntryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory_services/DeleteInventoryEntryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory_services/GetAllInventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory_services/GetInventoryByIdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory_services/UpdateInventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation_service/CancelReservationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation_service/GetAllReservationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation_service/GetReservationByIdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation_service/GetReservationsByUserIdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation_service/PlaceReservationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/entity/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/entity/Reservation.java" afterDir="false" />
-    </list>
+    <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,15 +207,7 @@
       <workItem from="1702928383795" duration="1488000" />
       <workItem from="1702965340011" duration="5582000" />
       <workItem from="1702981610944" duration="453000" />
-      <workItem from="1702982754137" duration="365000" />
-    </task>
-    <task id="LOCAL-00024" summary="Delete Book Controller">
-      <option name="closed" value="true" />
-      <created>1702820166595</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1702820166595</updated>
+      <workItem from="1702982754137" duration="678000" />
     </task>
     <task id="LOCAL-00025" summary="Delete Book Controller">
       <option name="closed" value="true" />
@@ -636,7 +593,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702911905999</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Library Management System">
+      <option name="closed" value="true" />
+      <created>1702983144638</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1702983144638</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
