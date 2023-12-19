@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="" />
+    <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="Library Management System">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fineController/PayFineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine_services/PayFineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine_dao/PayFineDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine_dao/PayFineDAO.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,15 +212,8 @@
       <workItem from="1702928383795" duration="1488000" />
       <workItem from="1702965340011" duration="5582000" />
       <workItem from="1702981610944" duration="453000" />
-      <workItem from="1702982754137" duration="678000" />
-    </task>
-    <task id="LOCAL-00025" summary="Delete Book Controller">
-      <option name="closed" value="true" />
-      <created>1702820215706</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1702820215706</updated>
+      <workItem from="1702982754137" duration="1689000" />
+      <workItem from="1703013173154" duration="939000" />
     </task>
     <task id="LOCAL-00026" summary="All Books Controller">
       <option name="closed" value="true" />
@@ -601,7 +599,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702983144638</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Library Management System">
+      <option name="closed" value="true" />
+      <created>1702983555342</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1702983555342</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,6 +615,42 @@
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="3e5ef636-6464-467e-83a7-48760a8893c3" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="3e5ef636-6464-467e-83a7-48760a8893c3">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update Member Service" />
