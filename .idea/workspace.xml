@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="Library Management System">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fineController/PayFineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine_services/PayFineService.java" afterDir="false" />
+    <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine_dao/PayFineDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine_dao/PayFineDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/LoginDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/LoginDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/auth/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/auth/LoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,15 +213,8 @@
       <workItem from="1702965340011" duration="5582000" />
       <workItem from="1702981610944" duration="453000" />
       <workItem from="1702982754137" duration="1689000" />
-      <workItem from="1703013173154" duration="939000" />
-    </task>
-    <task id="LOCAL-00026" summary="All Books Controller">
-      <option name="closed" value="true" />
-      <created>1702820243514</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1702820243514</updated>
+      <workItem from="1703013173154" duration="1477000" />
+      <workItem from="1703015158230" duration="1787000" />
     </task>
     <task id="LOCAL-00027" summary="Book By Id">
       <option name="closed" value="true" />
@@ -607,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702983555342</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Library Management System">
+      <option name="closed" value="true" />
+      <created>1703014230538</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1703014230539</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

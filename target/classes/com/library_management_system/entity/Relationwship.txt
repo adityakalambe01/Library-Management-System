@@ -1,0 +1,27 @@
+1. **Book and Catalog/Inventory:**
+   - Relationship: One-to-One
+   - Explanation: Each book has a unique identifier (Book ID) and is associated with a record in the catalog, which contains information about the book's availability, location, and quantity.
+
+2. **Book and Transaction/Loan:**
+   - Relationship: One-to-Many
+   - Explanation: A book can be involved in multiple transactions over time, representing checkouts and returns. However, at any given time, a book may be associated with only one active loans (checked out or available).
+
+3. **Member/User and Transaction/Loan:**
+   - Relationship: One-to-Many
+   - Explanation: A user can have multiple transactions, each representing a book checkout or return. However, at any given time, a user may have only one active loans per book.
+
+4. **Book and Reservation:**
+   - Relationship: One-to-Many
+   - Explanation: A book can have multiple reservations from different users. However, at any given time, a book may be associated with only one active reservation.
+
+5. **Member/User and Reservation:**
+   - Relationship: One-to-Many
+   - Explanation: A user can have multiple reservations for different books. However, at any given time, a user may have only one active reservation per book.
+
+6. **Member/User and Fine/Penalty:**
+   - Relationship: One-to-Many
+   - Explanation: A user can incur multiple fines for various reasons. Each fine record is associated with a specific user.
+
+7. **Library Staff and Transaction/Loan:**
+   - Relationship: One-to-Many
+   - Explanation: Library staff members are responsible for processing book transactions, including checkouts and returns. Multiple transactions can be associated with a staff member.

@@ -1,0 +1,10 @@
+{
+  "memberID": 1,
+  "memberName": "n",
+  "memberAddress": "a",
+  "memberContactNumber": 14256398,
+  "memberEmailId": "e",
+  "memberMembershipType": "m",
+  "memberBooksBorrowed": 3,
+  "password": "p"
+}
