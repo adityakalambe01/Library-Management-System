@@ -5,39 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fineController/GetAllFinesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fineController/GetFineByIdController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/fineController/GetFinesByUserIdController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_transaction_controller/CalculateFineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_transaction_controller/CheckoutBookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_transaction_controller/GetAllTransactionsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_transaction_controller/GetTransactionByIdController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_transaction_controller/GetTransactionsByUserIdController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/library_transaction_controller/ReturnBookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine_dao/GetAllFinesDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine_dao/GetFineByIdDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine_dao/GetFinesByUserIdDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/fine_dao/PayFineDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_transactions_dao/CalculateFineDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_transactions_dao/CheckoutBookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_transactions_dao/GetAllTransactionsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_transactions_dao/GetTransactionByIdDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_transactions_dao/GetTransactionsByUserIdDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_transactions_dao/ReturnBookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine_services/GetAllFinesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine_services/GetFineByIdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/fine_services/GetFinesByUserIdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_transaction_service/CalculateFineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_transaction_service/CheckoutBookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_transaction_service/GetAllTransactionsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_transaction_service/GetTransactionByIdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_transaction_service/GetTransactionsByUserIdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/library_transaction_service/ReturnBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory_controller/AddInventoryEntryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory_controller/DeleteInventoryEntryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory_controller/GetAllInventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory_controller/GetInventoryByIdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/inventory_controller/UpdateInventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation_controller/CancelReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation_controller/GetAllReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation_controller/GetReservationByIdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation_controller/GetReservationsByUserIdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/reservation_controller/PlaceReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory_dao/AddInventoryEntryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory_dao/DeleteInventoryEntryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory_dao/GetAllInventoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory_dao/GetInventoryByIdDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/inventory_dao/UpdateInventoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation_dao/CancelReservationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation_dao/GetAllReservationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation_dao/GetReservationByIdDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation_dao/GetReservationsByUserIdDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/reservation_dao/PlaceReservationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory_services/AddInventoryEntryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory_services/DeleteInventoryEntryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory_services/GetAllInventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory_services/GetInventoryByIdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/inventory_services/UpdateInventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation_service/CancelReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation_service/GetAllReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation_service/GetReservationByIdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation_service/GetReservationsByUserIdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/reservation_service/PlaceReservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/GetLibraryBranchByIdDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/library_branch_dao/GetLibraryBranchByIdDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/entity/Loans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/entity/LibraryTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/entity/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/entity/Reservation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;adityakalambe01&quot;
+  }
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
@@ -93,6 +100,14 @@
           </list>
         </option>
       </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="99067c81-9f62-420c-a354-aedd0423ee91" />
+        <option name="url" value="https://github.com/adityakalambe01/JavaBackendProjects.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -221,15 +236,13 @@
       <workItem from="1702873453283" duration="6788000" />
       <workItem from="1702897359979" duration="690000" />
       <workItem from="1702904515719" duration="4726000" />
-      <workItem from="1702909366424" duration="2361000" />
-    </task>
-    <task id="LOCAL-00023" summary="Book Availability Controller">
-      <option name="closed" value="true" />
-      <created>1702820147959</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1702820147959</updated>
+      <workItem from="1702909366424" duration="3030000" />
+      <workItem from="1702919776236" duration="4286000" />
+      <workItem from="1702925944813" duration="2418000" />
+      <workItem from="1702928383795" duration="1488000" />
+      <workItem from="1702965340011" duration="5582000" />
+      <workItem from="1702981610944" duration="453000" />
+      <workItem from="1702982754137" duration="365000" />
     </task>
     <task id="LOCAL-00024" summary="Delete Book Controller">
       <option name="closed" value="true" />
@@ -615,7 +628,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702844376976</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Library Management System">
+      <option name="closed" value="true" />
+      <created>1702911905998</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1702911905999</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,10 +668,10 @@
     <MESSAGE value="Get All Library Staff Service" />
     <MESSAGE value="Get All Library Staff Controller" />
     <MESSAGE value="Delete Book From Database" />
-    <MESSAGE value="Library Management System" />
     <MESSAGE value="Library Staff" />
     <MESSAGE value="Library Branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Library Branch" />
+    <MESSAGE value="Library Management System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Library Management System" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

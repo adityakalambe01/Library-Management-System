@@ -1,7 +1,7 @@
 package com.library_management_system.entity;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "lab_ms_reservations")
@@ -15,14 +15,14 @@ public class Reservation {
     @Column(name = "book_id")
     private Long bookId;
     @Column(name = "date")
-    private Date reservationDate;
+    private LocalDate reservationDate;
     @Column(name = "status")
     private String reservationStatus;
 
     public Reservation() {
     }
 
-    public Reservation(Long reservationId, Long userId, Long bookId, Date reservationDate, String reservationStatus) {
+    public Reservation(Long reservationId, Long userId, Long bookId, LocalDate reservationDate, String reservationStatus) {
         this.reservationId = reservationId;
         this.userId = userId;
         this.bookId = bookId;
@@ -54,17 +54,18 @@ public class Reservation {
         this.bookId = bookId;
     }
 
-    public Date getReservationDate() {
+    public LocalDate getReservationDate() {
         return reservationDate;
     }
 
-    public void setReservationDate(Date reservationDate) {
+    public void setReservationDate(LocalDate reservationDate) {
         this.reservationDate = reservationDate;
     }
 
     public String getReservationStatus() {
         return reservationStatus;
     }
+
 
     public void setReservationStatus(String reservationStatus) {
         this.reservationStatus = reservationStatus;
