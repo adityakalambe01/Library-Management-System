@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="Library Management System">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/HashPasswordDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/HashPassword.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,14 +223,7 @@
       <workItem from="1703019820447" duration="519000" />
       <workItem from="1703066956106" duration="849000" />
       <workItem from="1703076565415" duration="697000" />
-    </task>
-    <task id="LOCAL-00029" summary="Search Book By Title Controller">
-      <option name="closed" value="true" />
-      <created>1702820340730</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1702820340730</updated>
+      <workItem from="1703081284429" duration="340000" />
     </task>
     <task id="LOCAL-00030" summary="Update Book Controller">
       <option name="closed" value="true" />
@@ -617,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703066986432</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Library Management System">
+      <option name="closed" value="true" />
+      <created>1703081416419</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1703081416419</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
