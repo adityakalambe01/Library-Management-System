@@ -1,4 +1,4 @@
 package com.library_management_system.dao.auth;
 
-public class HashPasswordDAO {
+public class HashPassword {
 }
