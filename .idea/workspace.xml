@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/MyProjects/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/MyProjects/pom.xml" beforeDir="false" />
@@ -180,6 +178,7 @@
         <option value="AdityaKalambe &lt;adityakalambe20@gmail.com&gt;" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -391,39 +390,7 @@
       <workItem from="1703066956106" duration="849000" />
       <workItem from="1703076565415" duration="697000" />
       <workItem from="1703081284429" duration="340000" />
-      <workItem from="1703096684723" duration="9946000" />
-    </task>
-    <task id="LOCAL-00051" summary="Delete Book Service">
-      <option name="closed" value="true" />
-      <created>1702824040191</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1702824040191</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Get All Book Service">
-      <option name="closed" value="true" />
-      <created>1702824056187</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1702824056187</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Get Book By ID Service">
-      <option name="closed" value="true" />
-      <created>1702824075355</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1702824075355</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Search Book By Author Service">
-      <option name="closed" value="true" />
-      <created>1702824096889</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1702824096889</updated>
+      <workItem from="1703096684723" duration="10265000" />
     </task>
     <task id="LOCAL-00055" summary="Search Book By Title Service">
       <option name="closed" value="true" />
@@ -785,7 +752,39 @@
       <option name="project" value="LOCAL" />
       <updated>1703108134887</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703109848837</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1703109848837</updated>
+    </task>
+    <task id="LOCAL-00101" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703109933181</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1703109933181</updated>
+    </task>
+    <task id="LOCAL-00102" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703110071125</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1703110071125</updated>
+    </task>
+    <task id="LOCAL-00103" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703110148427</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1703110148427</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
