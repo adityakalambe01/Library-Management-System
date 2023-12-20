@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="README.md">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/MyProjects/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/MyProjects/pom.xml" beforeDir="false" />
@@ -390,31 +389,7 @@
       <workItem from="1703066956106" duration="849000" />
       <workItem from="1703076565415" duration="697000" />
       <workItem from="1703081284429" duration="340000" />
-      <workItem from="1703096684723" duration="7203000" />
-    </task>
-    <task id="LOCAL-00040" summary="Delete Member From Database">
-      <option name="closed" value="true" />
-      <created>1702822886591</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1702822886591</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Update Member From Database">
-      <option name="closed" value="true" />
-      <created>1702822914100</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1702822914101</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Get All Members Service">
-      <option name="closed" value="true" />
-      <created>1702823130966</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1702823130966</updated>
+      <workItem from="1703096684723" duration="7594000" />
     </task>
     <task id="LOCAL-00043" summary="Get Member By ID Service">
       <option name="closed" value="true" />
@@ -784,7 +759,31 @@
       <option name="project" value="LOCAL" />
       <updated>1703106070130</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703106155870</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1703106155870</updated>
+    </task>
+    <task id="LOCAL-00090" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703106257301</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1703106257301</updated>
+    </task>
+    <task id="LOCAL-00091" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703106338900</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1703106338900</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
