@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/MyProjects/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/MyProjects/pom.xml" beforeDir="false" />
@@ -389,31 +391,7 @@
       <workItem from="1703066956106" duration="849000" />
       <workItem from="1703076565415" duration="697000" />
       <workItem from="1703081284429" duration="340000" />
-      <workItem from="1703096684723" duration="8933000" />
-    </task>
-    <task id="LOCAL-00048" summary="Delete Member From Database">
-      <option name="closed" value="true" />
-      <created>1702823797139</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1702823797139</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Add Book Service">
-      <option name="closed" value="true" />
-      <created>1702823995092</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1702823995092</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Book Availability Service">
-      <option name="closed" value="true" />
-      <created>1702824021261</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1702824021262</updated>
+      <workItem from="1703096684723" duration="9946000" />
     </task>
     <task id="LOCAL-00051" summary="Delete Book Service">
       <option name="closed" value="true" />
@@ -783,7 +761,31 @@
       <option name="project" value="LOCAL" />
       <updated>1703107871027</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703107917139</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1703107917139</updated>
+    </task>
+    <task id="LOCAL-00098" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703108046428</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1703108046428</updated>
+    </task>
+    <task id="LOCAL-00099" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703108134887</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1703108134887</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
