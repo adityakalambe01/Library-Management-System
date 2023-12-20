@@ -8,12 +8,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.security.NoSuchAlgorithmException;
+
 @RestController
 public class AddMemberController {
     @Autowired
     AddMemberService addMemberService;
     @RequestMapping(value = "addMember",method = RequestMethod.POST)
-    public Boolean addMember(@RequestBody Member member){
+    public Boolean addMember(@RequestBody Member member) throws NoSuchAlgorithmException {
         return addMemberService.addMember(member);
+
     }
 }

@@ -8,12 +8,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.security.NoSuchAlgorithmException;
+
 @RestController
 public class LoginController {
     @Autowired
     LoginService loginService;
     @RequestMapping(value = "/memberLogin", method = RequestMethod.POST)
-    public Boolean memberLogin(@RequestBody Member browserMember){
+    public Boolean memberLogin(@RequestBody Member browserMember) throws NoSuchAlgorithmException {
         return loginService.memberLogin(browserMember);
     }
 }

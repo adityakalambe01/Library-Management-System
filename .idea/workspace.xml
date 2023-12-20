@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="Library Management System">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member_controller/AddMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/controller/member_controller/AddMemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/HashPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/dao/auth/HashPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/auth/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/auth/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member_services/AddMemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library_management_system/service/member_services/AddMemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/library_management_system/controller/member_controller/AddMemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/library_management_system/controller/member_controller/AddMemberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/library_management_system/controller/member_controller/GetAllMembersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/library_management_system/controller/member_controller/GetAllMembersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/library_management_system/service/member_services/AddMemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/library_management_system/service/member_services/AddMemberService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,35 +99,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;V:/AllProjects/src/main/java/com/library_management_system/controller/book&quot;,
-    &quot;last_opened_file_path&quot;: &quot;V:/AllProjects/src/main/java/com/library_management_system/controller&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;service.view.auto.scroll.from.source&quot;: &quot;true&quot;,
-    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;67e09f159e47ffaa407166d2067ac74f&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HashPassword.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.MainProjectApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "V:/AllProjects/src/main/java/com/library_management_system/controller/book",
+    "last_opened_file_path": "V:/AllProjects/src/main/java/com/library_management_system/controller",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "service.view.auto.scroll.from.source": "true",
+    "service.view.auto.scroll.to.source": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "67e09f159e47ffaa407166d2067ac74f",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.library_management_system.controller.book" />
@@ -142,6 +152,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MainProjectApplication">
+    <configuration name="HashPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.library_management_system.dao.auth.HashPassword" />
+      <module name="MyProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.library_management_system.dao.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
       <method v="2" />
     </configuration>
@@ -172,6 +195,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashPassword" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="JUnit.com.library_management_system.dao.library_branch_dao in MyProjects" />
         <item itemvalue="HTTP Request.All in generated-requests" />
@@ -224,14 +248,7 @@
       <workItem from="1703066956106" duration="849000" />
       <workItem from="1703076565415" duration="697000" />
       <workItem from="1703081284429" duration="340000" />
-    </task>
-    <task id="LOCAL-00030" summary="Update Book Controller">
-      <option name="closed" value="true" />
-      <created>1702820374568</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1702820374568</updated>
+      <workItem from="1703096684723" duration="3228000" />
     </task>
     <task id="LOCAL-00031" summary="Get Book By Id Controller">
       <option name="closed" value="true" />
@@ -617,7 +634,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703081416419</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Library Management System">
+      <option name="closed" value="true" />
+      <created>1703096882351</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1703096882351</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
