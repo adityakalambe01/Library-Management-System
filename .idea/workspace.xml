@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="Library Management System application.properties configuration">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="README.md">
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/MyProjects/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/MyProjects/pom.xml" beforeDir="false" />
@@ -390,23 +389,7 @@
       <workItem from="1703066956106" duration="849000" />
       <workItem from="1703076565415" duration="697000" />
       <workItem from="1703081284429" duration="340000" />
-      <workItem from="1703096684723" duration="6382000" />
-    </task>
-    <task id="LOCAL-00036" summary="Get Members By ID DAO">
-      <option name="closed" value="true" />
-      <created>1702821441767</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1702821441767</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Search Book By Member Name DAO">
-      <option name="closed" value="true" />
-      <created>1702821763277</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1702821763277</updated>
+      <workItem from="1703096684723" duration="6850000" />
     </task>
     <task id="LOCAL-00038" summary="Add Members DAO">
       <option name="closed" value="true" />
@@ -784,7 +767,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703105015637</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703105485270</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1703105485270</updated>
+    </task>
+    <task id="LOCAL-00086" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703105552906</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1703105552906</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -830,7 +829,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Delete Member From Database" />
     <MESSAGE value="Add Book Service" />
     <MESSAGE value="Book Availability Service" />
     <MESSAGE value="Delete Book Service" />
@@ -855,7 +853,8 @@
     <MESSAGE value="Library Branch" />
     <MESSAGE value="Library Management System" />
     <MESSAGE value="Library Management System application.properties configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Library Management System application.properties configuration" />
+    <MESSAGE value="README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
