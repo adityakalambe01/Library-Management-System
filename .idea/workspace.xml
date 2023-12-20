@@ -390,15 +390,7 @@
       <workItem from="1703066956106" duration="849000" />
       <workItem from="1703076565415" duration="697000" />
       <workItem from="1703081284429" duration="340000" />
-      <workItem from="1703096684723" duration="8074000" />
-    </task>
-    <task id="LOCAL-00045" summary="Search Member By Name Service">
-      <option name="closed" value="true" />
-      <created>1702823494738</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1702823494738</updated>
+      <workItem from="1703096684723" duration="8631000" />
     </task>
     <task id="LOCAL-00046" summary="Add Member Service">
       <option name="closed" value="true" />
@@ -784,7 +776,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703106782035</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703107221839</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1703107221839</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
