@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5792bf-115a-4c3d-95aa-a8a39bc4c96b" name="Changes" comment="README.md">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/MyProjects/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/MyProjects/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/MainProjectApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MainProjectApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/library_management_system/Operarions.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/library_management_system/controller/book_controller/AddBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/library_management_system/controller/book_controller/AddBookController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/library_management_system/controller/book_controller/BookAvailabilityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/library_management_system/controller/book_controller/BookAvailabilityController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/library_management_system/controller/book_controller/DeleteBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/library_management_system/controller/book_controller/DeleteBookController.class" afterDir="false" />
@@ -185,6 +185,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -389,23 +390,7 @@
       <workItem from="1703066956106" duration="849000" />
       <workItem from="1703076565415" duration="697000" />
       <workItem from="1703081284429" duration="340000" />
-      <workItem from="1703096684723" duration="7594000" />
-    </task>
-    <task id="LOCAL-00043" summary="Get Member By ID Service">
-      <option name="closed" value="true" />
-      <created>1702823246641</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1702823246641</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Search Member By Name DAO">
-      <option name="closed" value="true" />
-      <created>1702823350844</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1702823350844</updated>
+      <workItem from="1703096684723" duration="8074000" />
     </task>
     <task id="LOCAL-00045" summary="Search Member By Name Service">
       <option name="closed" value="true" />
@@ -783,7 +768,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703106338900</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703106661514</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1703106661514</updated>
+    </task>
+    <task id="LOCAL-00093" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1703106782035</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1703106782035</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
