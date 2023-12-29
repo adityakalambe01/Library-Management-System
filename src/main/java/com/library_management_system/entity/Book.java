@@ -1,8 +1,15 @@
 package com.library_management_system.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.util.Date;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Table(name = "lab_ms_books")
 public class Book {
@@ -24,94 +31,4 @@ public class Book {
     private Date bookPublicationYear;
     @Column(name = "book_availabily_status")
     private Boolean bookAvailabilityStatus;
-
-    public Book() {
-    }
-    public Book(String bookName, String bookAuthor, Long bookISBN, String bookGenre, Date bookPublicationYear, Boolean bookAvailabilityStatus) {
-        this.bookName = bookName;
-        this.bookAuthor = bookAuthor;
-        this.bookISBN = bookISBN;
-        this.bookGenre = bookGenre;
-        this.bookPublicationYear = bookPublicationYear;
-        this.bookAvailabilityStatus = bookAvailabilityStatus;
-    }
-
-    public Book(Long bookId, String bookName, String bookAuthor, Long bookISBN, String bookGenre, Date bookPublicationYear, Boolean bookAvailabilityStatus) {
-        this.bookId = bookId;
-        this.bookName = bookName;
-        this.bookAuthor = bookAuthor;
-        this.bookISBN = bookISBN;
-        this.bookGenre = bookGenre;
-        this.bookPublicationYear = bookPublicationYear;
-        this.bookAvailabilityStatus = bookAvailabilityStatus;
-    }
-
-    public Long getBookId() {
-        return bookId;
-    }
-
-    public void setBookId(Long bookId) {
-        this.bookId = bookId;
-    }
-
-    public String getBookName() {
-        return bookName;
-    }
-
-    public void setBookName(String bookName) {
-        this.bookName = bookName;
-    }
-
-    public String getBookAuthor() {
-        return bookAuthor;
-    }
-
-    public void setBookAuthor(String bookAuthor) {
-        this.bookAuthor = bookAuthor;
-    }
-
-    public Long getBookISBN() {
-        return bookISBN;
-    }
-
-    public void setBookISBN(Long bookISBN) {
-        this.bookISBN = bookISBN;
-    }
-
-    public String getBookGenre() {
-        return bookGenre;
-    }
-
-    public void setBookGenre(String bookGenre) {
-        this.bookGenre = bookGenre;
-    }
-
-    public Date getBookPublicationYear() {
-        return bookPublicationYear;
-    }
-
-    public void setBookPublicationYear(Date bookPublicationYear) {
-        this.bookPublicationYear = bookPublicationYear;
-    }
-
-    public Boolean getBookAvailabilityStatus() {
-        return bookAvailabilityStatus;
-    }
-
-    public void setBookAvailabilityStatus(Boolean bookAvailabilityStatus) {
-        this.bookAvailabilityStatus = bookAvailabilityStatus;
-    }
-
-    @Override
-    public String toString() {
-        return "Book{" +
-                "bookId=" + bookId +
-                ", bookName='" + bookName + '\'' +
-                ", bookAuthor='" + bookAuthor + '\'' +
-                ", bookISBN=" + bookISBN +
-                ", bookGenre='" + bookGenre + '\'' +
-                ", bookPublicationYear=" + bookPublicationYear +
-                ", bookAvailabilityStatus=" + bookAvailabilityStatus +
-                '}';
-    }
 }
