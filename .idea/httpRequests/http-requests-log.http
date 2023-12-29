@@ -1,3 +1,75 @@
+GET https://localhost:8080/getTables
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T113818.200.txt
+
+###
+
+GET https://localhost:8080/getTables
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T113817.200.txt
+
+###
+
+GET https://localhost:8080/getTables
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T113816.200.txt
+
+###
+
+GET https://localhost:8080/getTables
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T113815.200.txt
+
+###
+
+GET https://localhost:8080/getTables
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T113812.200.txt
+
+###
+
+GET https://localhost:8080/getTables
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T113811.200.txt
+
+###
+
+GET https://localhost:8080/getTables
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T113728.200.txt
+
+###
+
+GET https://localhost:8080/getTables
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T113719.200.txt
+
+###
+
 PUT http://localhost:9090/cancelReservation/5
 Content-Length: 0
 Connection: Keep-Alive
